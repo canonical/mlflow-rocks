@@ -36,3 +36,15 @@ parts:
     - tzdata
     python-requirements:
     - requirements.txt
+
+  non-root-user:
+    plugin: nil
+    after:
+      - mlflow
+    override-build: |
+      # make config dir
+      mkdir -p $CRAFT_PART_INSTALL/metrics
+    override-prime: |
+      craftctl default
+      install -d -o 584792 -g 584792 -m 770 \
+        metrics
