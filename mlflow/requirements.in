@@ -1,5 +1,2 @@
-boto3
-cryptography
-mlflow==2.22.0
+mlflow[db,auth,genai]==3.14.0
 prometheus-flask-exporter
-pymysql
