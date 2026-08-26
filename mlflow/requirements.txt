@@ -141,11 +141,11 @@ markupsafe==3.0.3
     #   wtforms
 matplotlib==3.11.0
     # via mlflow
-mlflow[auth,db,genai]==3.14.0
+mlflow[auth,db,genai]==3.15.1
     # via -r requirements.in
-mlflow-skinny==3.14.0
+mlflow-skinny==3.15.1
     # via mlflow
-mlflow-tracing==3.14.0
+mlflow-tracing==3.15.1
     # via mlflow
 multidict==6.7.1
     # via
