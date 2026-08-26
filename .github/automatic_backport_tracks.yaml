@@ -3,3 +3,6 @@ automatic_backport_tracks:
   -   track/3.15
 integration_branch_map:
   track/3.15: track/3.14
+  track/2.22:
+    - track/2.21
+    - track/2.20
