@@ -1,2 +1,2 @@
-mlflow[auth,db,genai]==3.15.1
+mlflow[auth,db,genai,mcp]==3.15.1
 prometheus-flask-exporter
